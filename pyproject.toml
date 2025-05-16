@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "vk-ml-task"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.13"
+pandas = "^2.2.3"
+catboost = "^1.2.8"
+notebook = "6.5.2"
+typer = "^0.15.4"
+structlog = "^25.3.0"
+optuna = "^4.3.0"
+scikit-learn = "^1.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
